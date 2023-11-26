@@ -1,0 +1,126 @@
+/* 1280 */
+@media (max-width: 1280px) {
+  * {
+    overflow-x: hidden;
+  }
+  .none {
+    display: none;
+  }
+
+  .header_box {
+    min-width: 1279px;
+    margin: 0 auto;
+  }
+  .header_main {
+    gap: 0px;
+  }
+  .header_text_top {
+    white-space: pre-line;
+    margin-bottom: 70px;
+  }
+  .header_text_top br {
+    display: none;
+  }
+  .header_img_box {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .header_img_box > img {
+    width: 70%;
+  }
+
+  .main_box {
+    min-height: 893px;
+  }
+  .main_img_box {
+    height: 390px;
+  }
+  .main_img_box > img {
+    width: 300px;
+    height: 300px;
+  }
+  .main_img_box > video {
+    width: 300px;
+    height: 300px;
+  }
+  .img_subText::before {
+    top: 86%;
+  }
+  .nav_right{gap: 15px;}
+  .main_bottom {
+    gap: 100px;
+  }
+  .box_3_wrapper {
+    min-width: 1279px;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .box_3_right {
+    gap: 150px;
+  }
+  .right_top {
+    margin-bottom: 0;
+  }
+  .right_bottom {
+    gap: 180px;
+  }
+
+  .box_4_wrapper {
+    min-width: 1279px;
+  }
+
+  .row {
+    gap: 180px;
+  }
+
+  .box_5_wrapper {
+    min-width: 1279px;
+  }
+  .box_6_wrapper {
+    min-width: 1279px;
+  }
+  .box_7_wrapper {
+    height: 120vh;
+    min-width: 800px;
+    grid-template-rows: 300px 350px 300px 0;
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      "left"
+      "right"
+      "bottom"
+      "empty";
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      height: 100%;
+      padding: 80px 0;
+      gap: 40px;
+  }
+  .left_one{
+    justify-content: center;
+  }
+  .left_two{
+    justify-content: center;
+  }
+  .box_7_left {
+    gap: 200px;
+    padding: 0;
+  }
+  .box_7_right {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .box_7_bottom {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .box_7_right > div {
+  }
+  footer {
+    min-width: 1279px;
+  }
+  .right_text_area{flex-direction: column;}
+}
