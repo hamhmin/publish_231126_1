@@ -109,7 +109,7 @@
     padding: 0;
   }
   .box_7_right {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     padding: 0;
   }
@@ -124,6 +124,6 @@
     min-width: 1279px;
   }
   .right_text_area{flex-direction: column;}
-.googlemap{width: 450px;height: 300px;}
+.googlemap{height: 300px;}
 
 }

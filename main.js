@@ -65,10 +65,3 @@ submitBtn.addEventListener("click", function () {
   window.open(mailtoLink);
 });
 
-const movie1 = document.querySelector(".movie_box1");
-const head1 = document.querySelector(".header_text_box");
-const head2 = document.querySelector(".header_img_box");
-setTimeout(() => {
-  movie1.style["z-index"] = -1;
-  movie1.style["opacity"] = 0;
-}, 12800);
