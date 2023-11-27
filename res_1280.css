@@ -105,7 +105,7 @@
     justify-content: center;
   }
   .box_7_left {
-    gap: 200px;
+    gap: 100px;
     padding: 0;
   }
   .box_7_right {
@@ -116,6 +116,7 @@
   .box_7_bottom {
     width: 100%;
     margin: 0 auto;
+    justify-content: center;
   }
   .box_7_right > div {
   }
@@ -123,4 +124,6 @@
     min-width: 1279px;
   }
   .right_text_area{flex-direction: column;}
+.googlemap{width: 450px;height: 300px;}
+
 }
